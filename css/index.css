@@ -1,0 +1,365 @@
+.main {
+    width: 980px;
+    height: 455px;
+    margin-left: 220px;
+    margin-top: 10px;
+}
+
+.focus {
+    position: relative;
+    float: left;
+    width: 721px;
+    height: 455px;
+}
+
+.btu {
+    position: absolute;
+    left: 350px;
+    bottom: 15px;
+    width: 80px;
+    height: 15px;
+}
+
+.btu ul li {
+    float: left;
+    width: 15px;
+    height: 15px;
+    background-color: #fff;
+    border-radius: 7px;
+    margin-right: 5px;
+}
+
+.btu ul li:first-child {
+    background-color: red;
+}
+
+.newsflash {
+    float: right;
+    width: 250px;
+    height: 455px;
+}
+
+.news {
+    height: 165px;
+    border: 1px solid #e4e4e4;
+}
+
+.news-hd {
+    height: 33px;
+    line-height: 33px;
+    border-bottom: 1px dotted #e4e4e4;
+    padding: 0 15px;
+}
+
+.news-hd h5 {
+    float: left;
+    font-size: 14px;
+}
+
+.news-hd .more {
+    right: 30px;
+    float: right;
+}
+
+.news-hd .more::after {
+    content: '\e920';
+    font-family: 'icomoon';
+}
+
+.news-bd {
+    padding: 5px 15px;
+}
+
+.news-bd ul li {
+    height: 24px;
+    line-height: 24px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.lifeservice {
+    position: relative;
+    height: 209px;
+    border: 1px solid #e4e4e4;
+    border-top: 0;
+    overflow: hidden;
+}
+
+.lifeservice img {
+    position: absolute;
+    top: 0;
+    left: 113px;
+}
+
+.lifeservice ul {
+    width: 252px;
+}
+
+.lifeservice ul li {
+    float: left;
+    width: 63px;
+    height: 71px;
+    border-right: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+    text-align: center;
+}
+
+.lifeservice ul li i {
+    display: inline-block;
+    width: 24px;
+    height: 28px;
+    margin-top: 12px;
+    background: url(../images/icons.png) no-repeat -17px -15px;
+}
+
+.bargain {
+    margin-top: 6px;
+}
+
+/* 推荐模块 */
+
+.recom {
+    height: 163px;
+    margin-top: 12px;
+    background-color: #ebebeb;
+}
+
+.recom_hd {
+    float: left;
+    width: 205px;
+    height: 163px;
+    text-align: center;
+    padding-top: 30px;
+    background-color: #5c5251;
+}
+
+.recom_bd {
+    float: left;
+}
+
+.recom_bd ul li {
+    position: relative;
+    float: left;
+}
+
+.recom_bd ul li img {
+    width: 248px;
+    height: 163px;
+}
+
+.recom_bd ul li:nth-child(-n+3):after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 10px;
+    width: 1px;
+    height: 145px;
+    background-color: #ddd;
+}
+
+/* 猜你喜欢模块 */
+
+.category {
+    height: 261px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.category_hd {
+    height: 28px;
+    line-height: 28px;
+    margin-bottom: 10px;
+}
+
+.category_hd h5 {
+    float: left;
+    font-size: 18px;
+    color: #333333;
+}
+
+.category_hd a {
+    position: relative;
+    float: right;
+    margin-right: 20px;
+}
+
+.category_hd a::after {
+    position: absolute;
+    right: -15px;
+    top: 0;
+    content: '\ea2e';
+    font-family: 'icomoon';
+}
+
+.category_bd {
+    height: 223px;
+    border: 1px solid #ededed;
+}
+
+.category_bd ul li {
+    position: relative;
+    float: left;
+    width: 199px;
+    height: 221px;
+}
+
+.category_bd ul li:nth-child(-n+5)::after {
+    display: inline-block;
+    bottom: 7px;
+    position: absolute;
+    content: '';
+    height: 62px;
+    width: 1px;
+    background-color: #ededed;
+}
+
+/* 智传模块 */
+
+.chuan {
+    height: 432px;
+    margin-bottom: 30px;
+}
+
+.chuan .chuan_hd {
+    height: 26px;
+    font-size: 18px;
+    line-height: 18px;
+    color: #333333;
+}
+
+.chuan_bd {
+    height: 406px;
+}
+
+.chuan_bd_le {
+    float: left;
+    width: 404px;
+    height: 406px;
+}
+
+.chuan_bd_re {
+    position: relative;
+    overflow: hidden;
+    float: left;
+    width: 796px;
+    height: 406px;
+}
+
+.chuan_bd_re img {
+    position: absolute;
+    left: -401px;
+    top: 0;
+    height: 406px;
+}
+
+/* 家用电器模块 */
+
+.box_hd {
+    height: 30px;
+    line-height: 30px;
+    border-bottom: 2px solid #c81623;
+}
+
+.box_hd h3 {
+    float: left;
+    font-size: 18px;
+    color: #c81623;
+    font-weight: 400;
+}
+
+.tab-list {
+    float: right;
+}
+
+.tab-list ul li {
+    position: relative;
+    float: left;
+    padding: 0 15px;
+    color: #999999;
+}
+
+.tab-list ul li:nth-child(-n+8)::after {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    content: '';
+    display: block;
+    width: 1px;
+    height: 12px;
+    background-color: #999999;
+}
+
+.box_bd {
+    height: 361px;
+}
+
+.tab_list_item>div {
+    float: left;
+    height: 361px;
+}
+
+.col_210 {
+    width: 210px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.col_210 ul {
+    padding-left: 12px;
+}
+
+.col_210 ul li {
+    float: left;
+    width: 85px;
+    height: 34px;
+    line-height: 33px;
+    text-align: center;
+    border-bottom: 1px solid #e4e4e4;
+    margin-left: 10px;
+}
+
+.col_329 {
+    width: 329px;
+}
+
+.col_221 {
+    width: 221px;
+    border-right: 1px solid #ccc;
+}
+
+.col_219 {
+    width: 219px;
+}
+
+.jia {
+    height: 65px;
+    margin-top: 20px;
+    margin-bottom: 28px;
+}
+
+/* 热门疯抢模块 */
+
+.remen {
+    height: 314px;
+    margin-bottom: 36px;
+}
+
+.re_hd {
+    height: 18px;
+    line-height: 18px;
+}
+
+.re_hd h3 {
+    font-size: 18px;
+    color: #333333;
+}
+.re_bd {
+    height: 283px;
+    margin-top: 13px;
+    text-align: center;
+}
+.re_bd img {
+    height: 283px;
+    width: 1200px;
+}
